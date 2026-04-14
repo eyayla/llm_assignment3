@@ -1,0 +1,27 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+The following values were not passed to `accelerate launch` and had defaults used instead:
+	`--num_machines` was set to a value of `1`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+  File "/work/coa258/NLP/assignment3/train-sft.py", line 110, in <module>
+    main()
+  File "/work/coa258/NLP/assignment3/train-sft.py", line 33, in main
+    model_args, data_args, lora_args, train_args = config.get_config_classes(training_type="sft")
+  File "/work/coa258/NLP/assignment3/config.py", line 215, in get_config_classes
+    parser.parse_args_into_dataclasses()
+  File "/work/coa258/llm_env/lib/python3.10/site-packages/transformers/hf_argparser.py", line 361, in parse_args_into_dataclasses
+    raise ValueError(f"Some specified arguments are not used by the HfArgumentParser: {remaining_args}")
+ValueError: Some specified arguments are not used by the HfArgumentParser: ['--completion_only_loss', 'False']
+Traceback (most recent call last):
+  File "/work/coa258/llm_env/bin/accelerate", line 6, in <module>
+    sys.exit(main())
+  File "/work/coa258/llm_env/lib/python3.10/site-packages/accelerate/commands/accelerate_cli.py", line 50, in main
+    args.func(args)
+  File "/work/coa258/llm_env/lib/python3.10/site-packages/accelerate/commands/launch.py", line 1405, in launch_command
+    simple_launcher(args)
+  File "/work/coa258/llm_env/lib/python3.10/site-packages/accelerate/commands/launch.py", line 993, in simple_launcher
+    raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['/work/coa258/llm_env/bin/python3.10', 'train-sft.py', '--model_name_or_path', 'meta-llama/Llama-3.2-3B', '--report_to', 'none', '--fp16', 'False', '--bf16', 'True', '--eval_on_start', 'False', '--max_steps', '500', '--save_steps', '100', '--eval_steps', '100', '--learning_rate', '2e-5', '--max_grad_norm', '1.0', '--completion_only_loss', 'False']' returned non-zero exit status 1.

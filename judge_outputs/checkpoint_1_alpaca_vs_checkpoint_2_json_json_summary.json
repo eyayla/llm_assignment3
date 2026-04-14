@@ -1,0 +1,25 @@
+{
+  "total": 50,
+  "wins_a": 9,
+  "wins_b": 17,
+  "ties": 24,
+  "win_rate_a": 0.18,
+  "win_rate_b": 0.34,
+  "tie_rate": 0.48,
+  "avg_scores_a": {
+    "instruction_following": 3.88,
+    "correctness": 4.04,
+    "clarity": 4.66,
+    "completeness": 4.26,
+    "structured_output_validity": 5.0,
+    "hallucination_risk": 4.38
+  },
+  "avg_scores_b": {
+    "instruction_following": 3.98,
+    "correctness": 4.32,
+    "clarity": 4.92,
+    "completeness": 4.6,
+    "structured_output_validity": 4.98,
+    "hallucination_risk": 4.72
+  }
+}

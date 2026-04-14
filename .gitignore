@@ -1,0 +1,13 @@
+# Model checkpoints (too large for git)
+sft-lora-*/
+stage2-lora-*/
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Logs (optional - keep if you want)
+# logs/

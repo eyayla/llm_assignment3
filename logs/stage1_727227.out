@@ -1,0 +1,10 @@
+Loading dataset: tatsu-lab/alpaca
+Total samples loaded: 52002
+Dropped 28 samples with empty output fields.
+Train dataset size:      46776
+Validation dataset size: 5198
+Output directory: ./sft-lora-Llama-3.2-3B-alpaca-r32-a64-d0.05-lr1.0e-04-wd0.01
+Max sequence length: 131072
+Train dataset size:      46776
+Validation dataset size: 5198
+trainable params: 48,627,712 || all params: 3,261,377,536 || trainable%: 1.4910175673694221

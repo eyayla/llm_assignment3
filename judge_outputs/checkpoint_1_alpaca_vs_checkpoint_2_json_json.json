@@ -1,0 +1,1202 @@
+[
+  {
+    "prompt_id": "json_000",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses perfectly follow the instruction, are factually correct, clear, complete, and have valid structured output with low hallucination risk."
+  },
+  {
+    "prompt_id": "json_001",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a lower hallucination risk."
+  },
+  {
+    "prompt_id": "json_002",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A has a more valid JSON structure, with consistent indentation and formatting."
+  },
+  {
+    "prompt_id": "json_003",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a lower hallucination risk."
+  },
+  {
+    "prompt_id": "json_004",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly follow the instruction."
+  },
+  {
+    "prompt_id": "json_005",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses correctly classify the headline as clickbait, but Response A provides a more detailed reason."
+  },
+  {
+    "prompt_id": "json_006",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A perfectly follows the instruction and has no risk of hallucinations, while Response B has a minor deviation from the instruction."
+  },
+  {
+    "prompt_id": "json_007",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly matches the instruction and has a lower hallucination risk."
+  },
+  {
+    "prompt_id": "json_008",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a lower hallucination risk."
+  },
+  {
+    "prompt_id": "json_009",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "tie",
+    "justification": "Both responses are factually incorrect and do not match the instruction, but Response A and Response B have the same scores."
+  },
+  {
+    "prompt_id": "json_010",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses correctly classify the headline as clickbait, but Response A provides a more detailed reason."
+  },
+  {
+    "prompt_id": "json_011",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses perfectly followed the instruction and provided a valid JSON output with no risk of hallucinations."
+  },
+  {
+    "prompt_id": "json_012",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A is more complete as it does not include the state in the city field, which is not specified in the instruction."
+  },
+  {
+    "prompt_id": "json_013",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 3
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and is factually correct, while Response B does not follow the instruction and has some factual errors."
+  },
+  {
+    "prompt_id": "json_014",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and follow the instruction perfectly, but do not correct any JSON formatting errors."
+  },
+  {
+    "prompt_id": "json_015",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 2,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 2,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A followed the instruction and provided a complete response, while Response B failed to provide required information and had a high hallucination risk."
+  },
+  {
+    "prompt_id": "json_016",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a more complete output."
+  },
+  {
+    "prompt_id": "json_017",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses failed to follow the instruction and did not extract any product information from the input text."
+  },
+  {
+    "prompt_id": "json_018",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses followed the instruction and provided a valid output, but did not classify the sentiment of the input text."
+  },
+  {
+    "prompt_id": "json_019",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A more closely followed the instruction, which was to generate a JSON object for a restaurant, not a product entry."
+  },
+  {
+    "prompt_id": "json_020",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and follow the instruction perfectly, but do not correct any JSON formatting errors."
+  },
+  {
+    "prompt_id": "json_021",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 3,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 3
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A fully follows the instruction and provides a complete and correct JSON object, while Response B fails to follow the instruction and lacks completeness."
+  },
+  {
+    "prompt_id": "json_022",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses incorrectly classified the topic as 'entertainment' and 'technology', respectively, when the sentence is actually a greeting in French, which doesn't fit into any of the given categories."
+  },
+  {
+    "prompt_id": "json_023",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B more closely matches the instruction, even though it doesn't use the exact function name and parameters."
+  },
+  {
+    "prompt_id": "json_024",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A perfectly follows the instruction and has no risk of hallucinations, while Response B has a slight deviation from the instruction format."
+  },
+  {
+    "prompt_id": "json_025",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B correctly followed the instruction and provided a valid JSON object, while Response A did not follow the instruction and had a high hallucination risk."
+  },
+  {
+    "prompt_id": "json_026",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 4,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B correctly identified the event name, date, and location, while Response A incorrectly extracted product names, prices, and quantities."
+  },
+  {
+    "prompt_id": "json_027",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A correctly generated a user profile matching the schema, while Response B failed to provide relevant information for the classic novel '1984' by George Orwell."
+  },
+  {
+    "prompt_id": "json_028",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a more structured output, while Response B is slightly less clear and complete."
+  },
+  {
+    "prompt_id": "json_029",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are valid JSON and follow the instruction perfectly."
+  },
+  {
+    "prompt_id": "json_030",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses correctly classify the headline as clickbait, but Response A provides a more detailed reason."
+  },
+  {
+    "prompt_id": "json_031",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly follow the instruction, but the instruction is not challenging enough to determine a clear winner."
+  },
+  {
+    "prompt_id": "json_032",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "tie",
+    "justification": "Both responses are factually incorrect and do not match the instruction, but Response A and Response B have the same scores."
+  },
+  {
+    "prompt_id": "json_033",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A perfectly follows the instruction and has a lower risk of hallucinations."
+  },
+  {
+    "prompt_id": "json_034",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly follows the instruction and has a more structured output, while Response B is slightly less clear and complete."
+  },
+  {
+    "prompt_id": "json_035",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B is more accurate in terms of JSON syntax, as it uses double quotes for the keys and values, which is the standard for JSON."
+  },
+  {
+    "prompt_id": "json_036",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly valid JSON."
+  },
+  {
+    "prompt_id": "json_037",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses perfectly followed the instruction and provided a valid JSON output with no risk of hallucinations."
+  },
+  {
+    "prompt_id": "json_038",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly formatted, with no errors or potential for hallucinations."
+  },
+  {
+    "prompt_id": "json_039",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are perfect and identical, so they are tied."
+  },
+  {
+    "prompt_id": "json_040",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A has a higher instruction following score due to its more detailed reason."
+  },
+  {
+    "prompt_id": "json_041",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly valid JSON."
+  },
+  {
+    "prompt_id": "json_042",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly formatted, with no risk of hallucinations."
+  },
+  {
+    "prompt_id": "json_043",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A perfectly followed the instruction and provided a more accurate response."
+  },
+  {
+    "prompt_id": "json_044",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B is more accurate in terms of JSON syntax, as it uses double quotes for the keys and values, which is the standard for JSON."
+  },
+  {
+    "prompt_id": "json_045",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses correctly classify the headline as clickbait, but Response A provides a more detailed reason."
+  },
+  {
+    "prompt_id": "json_046",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A is more complete as it includes the 'blue' tag in the product description."
+  },
+  {
+    "prompt_id": "json_047",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 2,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B accurately represents a function call to 'create_calendar_event' with the required parameters and also includes a search query and safe search flag, making it a more complete and correct response."
+  },
+  {
+    "prompt_id": "json_048",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses are identical and perfectly formatted, with no risk of hallucinations."
+  },
+  {
+    "prompt_id": "json_049",
+    "checkpoint_a": "checkpoint_1_alpaca",
+    "checkpoint_b": "checkpoint_2_json",
+    "eval_type": "json",
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "tie",
+    "justification": "Both responses incorrectly classified the topic as 'entertainment' and 'technology', respectively, when the sentence is actually a greeting in French, which doesn't fit into any of the given categories."
+  }
+]

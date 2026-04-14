@@ -1,0 +1,10 @@
+torch>=2.0
+transformers>=4.40
+trl==0.9.6
+peft>=0.10
+datasets>=2.0
+accelerate>=0.30
+wandb
+numpy
+requests
+python-dotenv

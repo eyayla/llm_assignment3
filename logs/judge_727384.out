@@ -1,0 +1,107 @@
+
+============================================================
+Judging: checkpoint_0_base vs checkpoint_1_alpaca [alpaca]
+============================================================
+  Matched 100 pairs
+  10/100 judged
+  20/100 judged
+  30/100 judged
+  40/100 judged
+  50/100 judged
+  60/100 judged
+  70/100 judged
+  80/100 judged
+  90/100 judged
+  100/100 judged
+
+  Summary:
+  checkpoint_0_base wins: 43 (43.0%)
+  checkpoint_1_alpaca wins: 45 (45.0%)
+  Ties: 12 (12.0%)
+
+============================================================
+Judging: checkpoint_0_base vs checkpoint_1_alpaca [json]
+============================================================
+  Matched 50 pairs
+  10/50 judged
+  20/50 judged
+  30/50 judged
+  40/50 judged
+  50/50 judged
+
+  Summary:
+  checkpoint_0_base wins: 15 (30.0%)
+  checkpoint_1_alpaca wins: 8 (16.0%)
+  Ties: 27 (54.0%)
+
+============================================================
+Judging: checkpoint_1_alpaca vs checkpoint_2_json [alpaca]
+============================================================
+  Matched 100 pairs
+  10/100 judged
+  20/100 judged
+  30/100 judged
+  40/100 judged
+  50/100 judged
+  60/100 judged
+  70/100 judged
+  80/100 judged
+  90/100 judged
+  100/100 judged
+
+  Summary:
+  checkpoint_1_alpaca wins: 26 (26.0%)
+  checkpoint_2_json wins: 56 (56.0%)
+  Ties: 18 (18.0%)
+
+============================================================
+Judging: checkpoint_1_alpaca vs checkpoint_2_json [json]
+============================================================
+  Matched 50 pairs
+  10/50 judged
+  20/50 judged
+  30/50 judged
+  40/50 judged
+  50/50 judged
+
+  Summary:
+  checkpoint_1_alpaca wins: 9 (18.0%)
+  checkpoint_2_json wins: 17 (34.0%)
+  Ties: 24 (48.0%)
+
+============================================================
+Judging: checkpoint_0_base vs checkpoint_2_json [alpaca]
+============================================================
+  Matched 100 pairs
+  10/100 judged
+  20/100 judged
+  30/100 judged
+  40/100 judged
+  50/100 judged
+  60/100 judged
+  70/100 judged
+  80/100 judged
+  90/100 judged
+  100/100 judged
+
+  Summary:
+  checkpoint_0_base wins: 35 (35.0%)
+  checkpoint_2_json wins: 59 (59.0%)
+  Ties: 6 (6.0%)
+
+============================================================
+Judging: checkpoint_0_base vs checkpoint_2_json [json]
+============================================================
+  Matched 50 pairs
+  10/50 judged
+  20/50 judged
+  30/50 judged
+  40/50 judged
+  50/50 judged
+
+  Summary:
+  checkpoint_0_base wins: 16 (32.0%)
+  checkpoint_2_json wins: 19 (38.0%)
+  Ties: 15 (30.0%)
+
+All judge evaluations complete. Results in ./judge_outputs/
