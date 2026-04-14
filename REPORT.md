@@ -64,6 +64,16 @@ The **judge model** was Llama 3.1 8B Instruct via UTSA API. Pairwise comparisons
 
 **Key finding:** Checkpoint 2 did NOT exhibit catastrophic forgetting. Instead, it outperformed Checkpoint 1 on Alpaca tasks (60% win rate vs 26%), while maintaining 100% JSON validity.
 
+### 2.1b Automatic Metrics (ROUGE & BERTScore)
+
+| Checkpoint | ROUGE-1 | ROUGE-2 | ROUGE-L | BERTScore F1 | Avg Length | Completion |
+|------------|---------|---------|---------|--------------|------------|------------|
+| Checkpoint 0 (Base) | 0.273 | 0.118 | 0.217 | 0.856 | 125.0 | 97% |
+| Checkpoint 1 (Alpaca) | 0.430 | 0.219 | 0.353 | 0.887 | 79.8 | 82% |
+| Checkpoint 2 (JSON) | 0.376 | 0.161 | 0.292 | 0.877 | 67.6 | 89% |
+
+ROUGE and BERTScore show a slight drop from Checkpoint 1 to Checkpoint 2, even though judge scores improved. This suggests the JSON-tuned model produces more concise responses (avg length dropped from 79.8 to 67.6 words) that diverge from reference answers in wording but are judged as higher quality.
+
 ### 2.2 Alpaca Evaluation Results
 
 **Checkpoint 0 vs Checkpoint 1 (Alpaca fine-tuning effect):**

@@ -1,0 +1,26 @@
+{
+  "checkpoint_0_base": {
+    "rouge1": 0.2732,
+    "rouge2": 0.1176,
+    "rougeL": 0.2173,
+    "bertscore_f1": 0.8561,
+    "avg_output_length_words": 125.0,
+    "task_completion_rate": 0.97
+  },
+  "checkpoint_1_alpaca": {
+    "rouge1": 0.4295,
+    "rouge2": 0.2189,
+    "rougeL": 0.3533,
+    "bertscore_f1": 0.8872,
+    "avg_output_length_words": 79.8,
+    "task_completion_rate": 0.82
+  },
+  "checkpoint_2_json": {
+    "rouge1": 0.3759,
+    "rouge2": 0.1606,
+    "rougeL": 0.2921,
+    "bertscore_f1": 0.8768,
+    "avg_output_length_words": 67.6,
+    "task_completion_rate": 0.89
+  }
+}
